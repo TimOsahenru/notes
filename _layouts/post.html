@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<header class="blog-header">
+    <h1 class="blog-title">{{ page.title }}</h1>
+    
+    <div class="blog-meta">
+        <div class="meta-item">
+            <i class="fas fa-user"></i>
+            <span>{{ site.author }}</span>
+        </div>
+        <div class="meta-item">
+            <i class="fas fa-calendar-alt"></i>
+            <span>{{ page.date | date: "%B %d, %Y" }}</span>
+        </div>
+        <div class="meta-item">
+            <i class="fas fa-clock"></i>
+            <span>{{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+        </div>
+    </div>
+    
+    <div class="tags">
+        {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+    </div>
+</header>
+
+{% if page.featured_image %}
+<div class="featured-image">
+    <img src="{{ page.featured_image }}" alt="{{ page.featured_image_alt }}">
+    {% if page.featured_image_caption %}
+    <div class="image-caption">{{ page.featured_image_caption }}</div>
+    {% endif %}
+</div>
+{% endif %}
+
+<article class="blog-content">
+    {{ content }}
+</article>
+
+<footer class="blog-footer">
+    <a href="{{ site.baseurl }}/" class="back-link">
+        <i class="fas fa-arrow-left"></i>
+        Back to all articles
+    </a>
+    <div class="share-options">
+        <a href="https://github.com/{{ site.social.github }}" class="share-btn" aria-label="Find me on GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://bsky.app/profile/{{ site.social.bluesky }}" class="share-btn" aria-label="Find me on Bluesky">
+            <i class="fab fa-bluesky bluesky"></i>
+        </a>
+        <a href="https://linkedin.com/in/{{ site.social.linkedin }}" class="share-btn" aria-label="Connect on LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+</footer>

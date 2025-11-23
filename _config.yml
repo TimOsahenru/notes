@@ -1,0 +1,19 @@
+title: "Tim's corner of the web"
+description: "Here is an archive of all my thoughts, experience and journey."
+baseurl: ""
+url: "https://corner.timosahenru.space"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Custom variables
+author: "Tim Osahenru"
+social:
+  github: "TimOsahenru"
+  bluesky: "timosahenru.space"
+  linkedin: "tim-osahenru-1a8a9b122"
+
+# Disable the default Minima CSS to avoid conflicts
+minima:
+  skin: none
