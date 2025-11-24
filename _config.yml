@@ -2,6 +2,8 @@ title: "Tim's corner of the web"
 description: "Here is an archive of all my thoughts, experience and journey."
 baseurl: ""
 url: "https://corner.timosahenru.space"
+featured_image: "/assets/images/og-default.png"
+
 
 # Build settings
 markdown: kramdown
