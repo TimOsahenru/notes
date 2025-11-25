@@ -4,6 +4,8 @@ layout: default
 
 <header class="blog-header">
     <h1 class="blog-title">{{ page.title }}</h1>
+        <p class="blog-subtitle">{{ page.footnote }}</p>
+
     
     <div class="blog-meta">
         <div class="meta-item">
@@ -46,6 +48,9 @@ layout: default
         Back to all articles
     </a>
     <div class="share-options">
+        <div class="comment-cta">
+            <p>Please leave a comment on these platforms, if this post excites you</p>
+        </div>
         <a href="https://github.com/{{ site.social.github }}" class="share-btn" aria-label="Find me on GitHub">
             <i class="fab fa-github"></i>
         </a>

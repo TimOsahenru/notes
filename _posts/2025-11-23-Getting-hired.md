@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Getting hired as a software engineer (a step-by-step approach to getting your first remote work)"
-date:   2025-11-23 17:23:33 +0000
+title: "Getting hired with a plan"
+date: 2025-11-23 17:23:33 +0000
 categories: []
+description: "A practical guide with actionable steps to land your first remote software engineering job, from skill development to effective self-marketing and community engagement."
+footnote: "A step-by-step approach to getting your first remote work"
 ---
+
 In the late quarter of 2022, the first email requesting me to apply for an internship position droped in my DMs, my first gig paid in foreign currency, I wasn’t surprised because I expected it, I felt it even took too long than expected, this sense of confidence came because I knew I had put in the work needed, so why some might interpret my fate as mere luck, although it is true, luck did contribute to my success, but also, I was prepared and in search of her(luck) by being deliberate about what I wanted and also by taking some actionable steps.
 
 These deliberate steps to getting you your own first job or gig as a software engineer are what I will be sharing in this guide, I’m not promising you a similar outcome as mine, cos I believe yours might be a better process as to how I started and a better offer as to what I gained. What I am assuring you of is, if you put these steps to good use, you’ll see the results within a year.
