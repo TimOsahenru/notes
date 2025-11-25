@@ -283,17 +283,21 @@
       }
 
       /* Mobile responsiveness for the new layout */
-      @media (max-width: 768px) {
-        .share-options {
-          flex-direction: column;
-          gap: 10px;
-        }
+@media (max-width: 768px) {
+  .share-options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
 
-        .comment-cta {
-          margin-right: 0;
-          text-align: center;
-        }
-      }
+  .comment-cta {
+    margin-right: 0;
+    text-align: center;
+    flex-basis: 100%;
+    margin-bottom: 5px;
+  }
+}
 
       .content-image {
         width: 100%;
