@@ -2,7 +2,7 @@
 layout: post
 title: "Getting hired with a plan"
 date: 2025-11-23 17:23:33 +0000
-categories: []
+tags: Tutorial How-to coding
 description: "A practical guide with actionable steps to land your first remote software engineering job, from skill development to effective self-marketing and community engagement."
 footnote: "A step-by-step approach to getting your first remote work"
 ---

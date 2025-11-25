@@ -49,8 +49,6 @@
     />
 
     <style>
-      /* PASTE YOUR ENTIRE CSS FROM YOUR ORIGINAL TEMPLATE HERE */
-      /* CSS Variables for Themes - Accent Color Restored */
       :root {
         /* DARK MODE (Default) */
         --bg-start: #121212;
@@ -62,7 +60,7 @@
         --item-hover-bg: #303030;
         --footer-color: #a0a0a0;
         --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-        --accent: #ff6b00; /* RESTORED ORANGE */
+        --accent: #ff6b00;
         --profile-bg: #2a2a2a;
         --toggle-icon: var(--text-color);
         --secondary-text: #b0b0b0;
@@ -79,13 +77,13 @@
         --item-hover-bg: #dcdcdc;
         --footer-color: #777777;
         --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-        --accent: #e67e22; /* RESTORED AMBER/ORANGE */
+        --accent: #e67e22;
         --profile-bg: #e0e0e0;
         --toggle-icon: var(--text-color);
         --secondary-text: #666666;
       }
 
-      /* Base Styles - Simplified */
+      /* Styles */
       * {
         margin: 0;
         padding: 0;
@@ -134,15 +132,14 @@
         line-height: 1.3;
       }
 
-      /* Add this to your existing CSS */
-.blog-content img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 25px auto;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
+      .blog-content img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 25px auto;
+        border-radius: 6px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
 
       .blog-meta {
         display: flex;
@@ -266,37 +263,37 @@
       }
 
       /* Comment Call-to-Action Styles */
-.comment-cta {
-    margin-right: 15px;
-    font-size: 0.8rem;
-    color: var(--secondary-text);
-    text-align: right;
-}
+      .comment-cta {
+        margin-right: 15px;
+        font-size: 0.8rem;
+        color: var(--secondary-text);
+        text-align: right;
+      }
 
-.comment-cta p {
-    margin: 0;
-    line-height: 1.4;
-}
+      .comment-cta p {
+        margin: 0;
+        line-height: 1.4;
+      }
 
-/* Adjust share options for the new layout */
-.share-options {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
+      /* Adjust share options for the new layout */
+      .share-options {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
 
-/* Mobile responsiveness for the new layout */
-@media (max-width: 768px) {
-    .share-options {
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .comment-cta {
-        margin-right: 0;
-        text-align: center;
-    }
-}
+      /* Mobile responsiveness for the new layout */
+      @media (max-width: 768px) {
+        .share-options {
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .comment-cta {
+          margin-right: 0;
+          text-align: center;
+        }
+      }
 
       .content-image {
         width: 100%;
@@ -334,46 +331,43 @@
         font-size: 0.85rem;
       }
 
-/* Blog Subtitle Styles */
-.blog-subtitle {
-    font-size: 1rem;
-    color: #777777;
-    margin: -8px 0 20px 0;
-    font-weight: 400;
-    font-style: italic;
-    line-height: 1.4;
-}
+      .blog-subtitle {
+        font-size: 1rem;
+        color: #777777;
+        margin: -8px 0 20px 0;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 1.4;
+      }
 
-/* Adjust blog title margin to accommodate subtitle */
-.blog-title {
-    font-size: 2.2rem;
-    margin-bottom: 5px; 
-    color: var(--text-color);
-    line-height: 1.3;
-}
+      .blog-title {
+        font-size: 2.2rem;
+        margin-bottom: 5px;
+        color: var(--text-color);
+        line-height: 1.3;
+      }
 
-/* Mobile responsiveness for subtitle */
-@media (max-width: 768px) {
-    .blog-subtitle {
-        font-size: 1rem; 
-        margin: -6px 0 15px 0;
-    }
-    
-    .blog-title {
-        font-size: 1.8rem;
-    }
-}
+      @media (max-width: 768px) {
+        .blog-subtitle {
+          font-size: 1rem;
+          margin: -6px 0 15px 0;
+        }
 
-@media (max-width: 480px) {
-    .blog-subtitle {
-        font-size: 0.9rem; 
-        margin: -5px 0 12px 0;
-    }
-    
-    .blog-title {
-        font-size: 1.6rem;
-    }
-}
+        .blog-title {
+          font-size: 1.8rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .blog-subtitle {
+          font-size: 0.9rem;
+          margin: -5px 0 12px 0;
+        }
+
+        .blog-title {
+          font-size: 1.6rem;
+        }
+      }
 
       .back-link {
         color: var(--accent);
@@ -403,12 +397,10 @@
         color: var(--accent);
       }
 
-      /* Bluesky icon color */
       .bluesky {
         color: #0285ff;
       }
 
-      /* Theme Toggle Button */
       .theme-toggle {
         position: absolute;
         top: 0;
