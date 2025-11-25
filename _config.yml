@@ -7,7 +7,7 @@ featured_image: "/assets/images/og-default.png"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /note/:title/
 
 # Custom variables
 author: "Tim Osahenru"
