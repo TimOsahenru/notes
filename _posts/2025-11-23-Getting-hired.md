@@ -10,7 +10,7 @@ footnote: "A step-by-step approach to getting your first remote work"
 
 In the late quarter of 2022, the first email requesting me to apply for an internship position droped in my inbox, my first gig paid in foreign currency, I wasn’t surprised because I expected it, I felt it even took too long than expected, this sense of confidence came because I knew I had put in the work needed, so why some might interpret my fate as mere luck, although it is true, luck did contribute to my success, but also, I was prepared and in search of her(luck) by being deliberate about what I wanted and also by taking some actionable steps.
 
-These deliberate steps to getting you your own first job or gig as a software engineer are what I will be sharing in this guide. While, I’m not promising you a similar outcome as mine, cos I believe yours should be a better process as to how I started and a better offer as to what I gained. What I am assuring you of if you put these steps to good use, you’ll see the results within a year or less.
+These deliberate steps to getting you your own first job or gig as a software engineer are what I will be sharing in this guide. While, I’m not promising you a similar outcome as mine, cos I believe yours should be a better process as to how I started and a better offer as to what I gained. What I am assuring you of is, if you put these steps to good use, you’ll see the results within a year or less.
 
 
 > 📝 Although Python language is used as an example for this article, the lessons learned and tips shared here can also be used across any other language, framework or technological concept.
@@ -22,7 +22,7 @@ These deliberate steps to getting you your own first job or gig as a software en
 
 I had to be intentional about what part of tech I wanted to start building a career in and for me it was as a backend engineer; a backend engineer is mostly concerned about the flow of logic of an application.
 
-I had researched some of the best languages to learn as far back as 2021 and Python was top on that list, it still is as of {{ site.time | date: "%Y" }} according to [Hostinger](https://www.hostinger.com/tutorials/best-programming-languages-to-learn). It took me about 6 a months journey to understand the concepts programming and Python.
+I had researched some of the best languages to learn as far back as 2021 and Python was top on that list, it still is as of {{ site.time | date: "%Y" }} according to [Hostinger](https://www.hostinger.com/tutorials/best-programming-languages-to-learn). It took me about 6  months to journey the process from beginner to getting a job, I had to go back to understanding the concepts of programming and Python.
 
 When I was sure I understood what it’ll cost me to be proficient in Python as a backend engineer, I committed myself to it.
 
@@ -33,7 +33,7 @@ When I was sure I understood what it’ll cost me to be proficient in Python as 
 
 Commitment is the decision to show up every day regardless of the amount of work, commitment is in the little steps you take each day towards your plan or goal, commitment is in knowing that consistency beats intensity any day or time, not focusing too much on a perfect outcome but rather on the process of the journey.
 
-So, on November 8, 2021, I decided to commit to my plan and strategy of getting my first paid gig as a Python developer.
+So, on November 8, 2021, I intentionally decided to commit to my plan and strategy of getting my first paid gig as a Python developer.
 
 [I made a Tweet then which isn't available anymore cos I've long left Twitter as a result of the toxicity, false news and nudity there]. You know, when the universe knows about your plans it finds a way to guide you into completing, especially if you’re determined to see it through, the old book of wisdom says
 
@@ -46,7 +46,7 @@ Before I started learning Python properly, I had to familiarize myself with the 
 
 While many are meant to believe that tech is hard, the lack of a proper road map makes it even harder.
 
-I proceeded to also learn the core concepts of other languages like c++ still under the same curriculum from [Harvard(cs50)](https://learning.edx.org/course/course-v1:HarvardX+CS50P+Python/home), not sure how long this took but to follow a 6 months plan let's say two months because by February of the following year(2022) I had already narrowed my focus to just learning Python.
+I proceeded to also learn the core concepts of other languages like c++ still under the same curriculum from [Harvard(cs50)](https://learning.edx.org/course/course-v1:HarvardX+CS50P+Python/home), not sure how long this took but to follow the 6 months plan let's say two months because by February of the following year(2022) I had already narrowed my focus to just learning Python.
 
 Once I understood the fundamentals of computer programming again, I narrowed my learning with teachings from [Mosh Hamedani](https://codewithmosh.com/), Mosh’s teaching style is top-notch and very beginners friendly.
 
@@ -77,7 +77,7 @@ The decision to give my first talk at a tech conference was very crucial to the 
 
 Well, if you’re reading this I sincerely urge you to become a member of a community regardless of your level of expertise.
 
-When you pick a language, search out for the community close to you, the Python community, for example, is very broad and diverse one, having branches in almost every continent, countries and major cities and if none is vaialable in your location, here is a call to create one.
+When you pick a language, search out for the community close to you, the Python community, for example, is very broad and diverse one, having branches in almost every continent, countries and major cities and if none is avaialable at your location, here is a call to create one.
 
 Being an active person in your community means you are contributing to the community; financial contributions human and material resources, no matter how small, let your presence and impact be felt, and engage their social media handles by commenting and reposting whenever a post is made to help boost their engagments.
 
@@ -95,7 +95,7 @@ From your display picture to your bio, be very intentional about what you post f
 
 A story gives room for engagement, two people sharing their story on how they got a job can differ based on how they share their stories.
 
-Why this tip might seem as tho I'm selling the importance of portraying yourself as a software engineer on social media platforms, the message I want you to pick is here is to be very deliberate about how you market yourself when telling your story.
+Why this tip might seem as tho I'm selling the importance of portraying yourself as a software engineer on social media platforms, the message I actually want you to pick is here is to be very deliberate about how you market yourself when telling your story.
 
 ### Tip6: Contribute to an open-source project
 > Your engagement with open is the surest referral to getting your first job.
@@ -104,7 +104,7 @@ Why this tip might seem as tho I'm selling the importance of portraying yourself
 An open source project is a project which its source code is made public and other developers can contribute to it, the [Django framework](https://www.djangoproject.com/) is a good example of an open source project, my first open source project in 2022 exposed me to what a large code base looks like, as a developer it is one thing to read through your code and debug, and yet another to read and try to understand the code of others.
 
 Contributing to an open source project will strengthen your skill in whatever language you're learning as you will be able to see thinking pieces of what makes up the code base to which you are contributing to.
-Also, another benefit of contributing to open source projects as a job seeker is how it exposes you to the working wonders of a version control system when working with teams, which many recruters are heavy on.
+Also, another benefit of contributing to open source projects as a job seeker is how it exposes you to the working wonders of a version control system when working in groups, which many recruters are heavy on - team work.
 
 ### Tip 7: Start applying.
 > The best time to plant a tree was 20 years ago. The second best time is now.
